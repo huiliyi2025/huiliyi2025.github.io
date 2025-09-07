@@ -1,0 +1,729 @@
+/* @font-face {
+  font-family: Candyhome;
+  src: url(https://npm.elemecdn.com/anzhiyu-blog@1.1.6/fonts/Candyhome.ttf);
+  font-display: swap;
+  font-weight: lighter;
+} */
+@font-face {
+  font-family: ZhuZiAYuanJWD;
+  src: url(https://npm.elemecdn.com/anzhiyu-blog@1.1.6/fonts/ZhuZiAWan.woff2);
+  font-display: swap;
+  font-weight: lighter;
+}
+
+div#menus {
+  font-family: "ZhuZiAYuanJWD";
+}
+h1#site-title {
+  font-family: ZhuZiAYuanJWD;
+  font-size: 3em !important;
+}
+a.article-title,
+a.blog-slider__title,
+a.categoryBar-list-link,
+h1.post-title {
+  font-family: ZhuZiAYuanJWD;
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 3em;
+  /* 可以定义图标大小 */
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 时间轴生肖icon */
+svg.icon {
+  /* 这里定义svg.icon，避免和Butterfly自带的note标签冲突 */
+  width: 1em;
+  height: 1em;
+  /* width和height定义图标的默认宽度和高度*/
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+.icon-zhongbiao::before {
+  color: #f7c768;
+}
+
+/* bilibli番剧插件
+#article-container .bangumi-tab.bangumi-active {
+  background: var(--anzhiyu-theme);
+  color: var(--anzhiyu-ahoverbg);
+  border-radius: 10px;
+}
+a.bangumi-tab:hover {
+  text-decoration: none !important;
+}
+.bangumi-button:hover {
+  background: var(--anzhiyu-theme) !important;
+  border-radius: 10px !important;
+  color: var(--anzhiyu-ahoverbg) !important;
+}
+a.bangumi-button.bangumi-nextpage:hover {
+  text-decoration: none !important;
+}
+.bangumi-button {
+  padding: 5px 10px !important;
+}
+
+a.bangumi-tab {
+  padding: 5px 10px !important;
+}
+svg.icon.faa-tada {
+  font-size: 1.1em;
+}
+.bangumi-info-item {
+  border-right: 1px solid #f2b94b;
+}
+.bangumi-info-item span {
+  color: #f2b94b;
+}
+.bangumi-info-item em {
+  color: #f2b94b;
+} */
+
+/* 解决artitalk的图标问题 */
+#uploadSource > svg {
+  width: 1.19em;
+  height: 1.5em;
+}
+
+/*top-img黑色透明玻璃效果移除，不建议加，除非你执着于完全一图流或者背景图对比色明显 */
+#page-header:not(.not-top-img):before {
+  background-color: transparent !important;
+}
+
+/* 首页文章卡片 */
+#recent-posts > .recent-post-item {
+  background: rgb(12, 10, 10); 
+}
+
+/* 首页侧栏卡片 */
+#aside-content .card-widget {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+/* 文章页面正文背景 */
+div#post {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+/* 分页页面 */
+div#page {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+/* 归档页面 */
+div#archive {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+/* 标签页面 */
+div#tag {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+/* 分类页面 */
+div#category {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+/*夜间模式伪类遮罩层透明*/
+[data-theme="dark"] #recent-posts > .recent-post-item {
+  background: #121212;
+}
+
+[data-theme="dark"] .card-widget {
+  background: #121212 !important;
+}
+
+[data-theme="dark"] div#post {
+  background: #121212 !important;
+}
+
+[data-theme="dark"] div#tag {
+  background: #121212 !important;
+}
+
+[data-theme="dark"] div#archive {
+  background: #121212 !important;
+}
+
+[data-theme="dark"] div#page {
+  background: #121212 !important;
+}
+
+[data-theme="dark"] div#category {
+  background: #121212 !important;
+}
+
+[data-theme="dark"] div#category {
+  background: transparent !important;
+}
+/* 页脚透明 */
+#footer {
+  background: transparent !important;
+}
+
+/* 头图透明 */
+#page-header {
+  background: transparent !important;
+}
+
+#rightside > div > button {
+  border-radius: 5px;
+}
+
+/* 滚动条 */
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #56585e;
+  border-radius: 2em;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+::-moz-selection {
+  color: #fff;
+  background-color: #3b70fc;
+}
+
+/* 音乐播放器 */
+
+/* .aplayer .aplayer-lrc {
+  display: none !important;
+} */
+
+.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+  left: -66px !important;
+  transition: all 0.3s;
+  /* 默认情况下缩进左侧66px，只留一点箭头部分 */
+}
+
+.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+  left: 0 !important;
+  transition: all 0.3s;
+  /* 鼠标悬停是左侧缩进归零，完全显示按钮 */
+}
+
+.aplayer.aplayer-fixed {
+  z-index: 999999 !important;
+}
+
+/* 评论框  */
+.vwrap {
+  box-shadow: 2px 2px 5px #bbb;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  padding: 30px;
+  margin: 30px 0px 30px 0px;
+}
+
+/* 设置评论框 */
+
+.vcard {
+  box-shadow: 2px 2px 5px #bbb;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  padding: 30px;
+  margin: 30px 0px 0px 0px;
+}
+
+/* md网站下划线 */
+#article-container a:hover {
+  text-decoration: none !important;
+}
+
+#article-container #hpp_talk p img {
+  display: inline;
+}
+
+/* 404页面 */
+#error-wrap {
+  position: absolute;
+  top: 40%;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  padding: 0 1rem;
+  max-width: 1000px;
+  transform: translate(0, -50%);
+}
+
+#error-wrap .error-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 1rem;
+  height: 18rem;
+  border-radius: 8px;
+  background: var(--card-bg);
+  box-shadow: var(--card-box-shadow);
+  transition: all 0.3s;
+}
+
+#error-wrap .error-content .error-img {
+  box-flex: 1;
+  flex: 1;
+  height: 100%;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  background-color: #3b70fc;
+  background-position: center;
+  background-size: cover;
+}
+
+#error-wrap .error-content .error-info {
+  box-flex: 1;
+  flex: 1;
+  padding: 0.5rem;
+  text-align: center;
+  font-size: 14px;
+  font-family: Titillium Web, "PingFang SC", "Hiragino Sans GB", "Microsoft JhengHei", "Microsoft YaHei", sans-serif;
+}
+#error-wrap .error-content .error-info .error_title {
+  margin-top: -4rem;
+  font-size: 9em;
+}
+#error-wrap .error-content .error-info .error_subtitle {
+  margin-top: -3.5rem;
+  word-break: break-word;
+  font-size: 1.6em;
+}
+#error-wrap .error-content .error-info a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.3rem 1.5rem;
+  background: var(--btn-bg);
+  color: var(--btn-color);
+}
+
+#body-wrap.error .aside-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  bottom: 0px;
+  position: absolute;
+  padding: 1rem;
+  width: 100%;
+  overflow: scroll;
+}
+
+#body-wrap.error .aside-list .aside-list-group {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#body-wrap.error .aside-list .aside-list-item {
+  padding: 0.5rem;
+}
+
+#body-wrap.error .aside-list .aside-list-item img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+#body-wrap.error .aside-list .aside-list-item .thumbnail {
+  overflow: hidden;
+  width: 230px;
+  height: 143px;
+  background: var(--anzhiyu-card-bg);
+  display: flex;
+}
+
+#body-wrap.error .aside-list .aside-list-item .content .title {
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  line-height: 1.5;
+  justify-content: center;
+  align-items: flex-end;
+  align-content: center;
+  padding-top: 0.5rem;
+  color: white;
+}
+
+#body-wrap.error .aside-list .aside-list-item .content time {
+  display: none;
+}
+
+/* 代码框主题 */
+#article-container figure.highlight {
+  border-radius: 10px;
+}
+:root {
+  --card-bg: rgba(255, 255, 255, 0.5) !important;  /* 替换为你的颜色 */
+}
+
+/* 深色模式下的卡片背景（如果需要） */
+[data-theme="dark"] {
+  --card-bg: #1e1e1e !important;  /* 替换为你的颜色 */
+}
+
+/* 自定义评论样式 - QQ说说风格 */
+
+/* 评论区域整体样式 */
+#twikoo {
+  background: #f8f9fa;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+/* 评论框样式 */
+.twikoo .el-textarea__inner {
+  border: 2px solid #e1e5e9;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 14px;
+  background: white;
+  transition: all 0.3s ease;
+}
+
+.twikoo .el-textarea__inner:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.1);
+}
+
+/* 评论按钮样式 */
+.twikoo .el-button--primary {
+  background: #007bff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 20px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.twikoo .el-button--primary:hover {
+  background: #0056b3;
+  transform: translateY(-1px);
+}
+
+/* 评论列表样式 */
+.twikoo .twikoo-comments {
+  margin-top: 20px;
+}
+
+/* 单条评论样式 */
+.twikoo .twikoo-comment {
+  background: white;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 12px;
+  border-left: 4px solid #007bff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.twikoo .twikoo-comment:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* 评论头部信息 */
+.twikoo .twikoo-comment .twikoo-comment-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+/* 评论者昵称 */
+.twikoo .twikoo-comment .twikoo-comment-name {
+  font-weight: 600;
+  color: #333;
+  font-size: 14px;
+  margin-right: 8px;
+}
+
+/* 评论时间 */
+.twikoo .twikoo-comment .twikoo-comment-time {
+  color: #999;
+  font-size: 12px;
+}
+
+/* 评论内容 */
+.twikoo .twikoo-comment .twikoo-comment-content {
+  color: #333;
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 8px 0;
+}
+
+/* 评论操作按钮 */
+.twikoo .twikoo-comment .twikoo-comment-actions {
+  margin-top: 8px;
+}
+
+.twikoo .twikoo-comment .twikoo-comment-action {
+  color: #666;
+  font-size: 12px;
+  margin-right: 16px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.twikoo .twikoo-comment .twikoo-comment-action:hover {
+  color: #007bff;
+}
+
+/* 回复样式 */
+.twikoo .twikoo-comment .twikoo-comment-reply {
+  background: #f8f9fa;
+  border-radius: 6px;
+  padding: 12px;
+  margin-top: 8px;
+  border-left: 3px solid #dee2e6;
+}
+
+/* 评论统计 */
+.twikoo .twikoo-comment-count {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+/* 加载更多按钮 */
+.twikoo .twikoo-load-more {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.twikoo .twikoo-load-more .el-button {
+  background: #6c757d;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 20px;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.twikoo .twikoo-load-more .el-button:hover {
+  background: #545b62;
+  transform: translateY(-1px);
+}
+
+/* 移动端适配 */
+@media (max-width: 768px) {
+  #twikoo {
+    padding: 15px;
+    margin: 15px 0;
+  }
+  
+  .twikoo .twikoo-comment {
+    padding: 12px;
+    margin-bottom: 10px;
+  }
+  
+  .twikoo .el-textarea__inner {
+    padding: 10px;
+    font-size: 16px; /* 移动端字体稍大 */
+  }
+}
+
+/* 深色模式支持 */
+@media (prefers-color-scheme: dark) {
+  #twikoo {
+    background: #2d3748;
+  }
+  
+  .twikoo .twikoo-comment {
+    background: #4a5568;
+    color: #e2e8f0;
+  }
+  
+  .twikoo .twikoo-comment .twikoo-comment-name {
+    color: #e2e8f0;
+  }
+  
+  .twikoo .twikoo-comment .twikoo-comment-content {
+    color: #e2e8f0;
+  }
+  
+  .twikoo .el-textarea__inner {
+    background: #4a5568;
+    color: #e2e8f0;
+    border-color: #718096;
+  }
+}
+
+/* ==================== Waline 留言系统样式优化 ==================== */
+.wl-panel {
+  border-radius: 12px !important;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1) !important;
+  border: 1px solid #e1e5e9 !important;
+  background: var(--card-bg) !important;
+  margin: 20px 0 !important;
+}
+
+.wl-input {
+  border: 1px solid #e1e5e9 !important;
+  border-radius: 8px !important;
+  transition: all 0.3s ease !important;
+  background: var(--card-bg) !important;
+  color: var(--font-color) !important;
+}
+
+.wl-input:focus {
+  border-color: #49b1f5 !important;
+  box-shadow: 0 0 0 3px rgba(73, 177, 245, 0.1) !important;
+  outline: none !important;
+}
+
+.wl-btn {
+  background: linear-gradient(135deg, #49b1f5 0%, #3a8ee6 100%) !important;
+  border-radius: 8px !important;
+  border: none !important;
+  color: white !important;
+  font-weight: 500 !important;
+  transition: all 0.3s ease !important;
+}
+
+.wl-btn:hover {
+  background: linear-gradient(135deg, #3a8ee6 0%, #2d7dd2 100%) !important;
+  transform: translateY(-1px) !important;
+  box-shadow: 0 4px 12px rgba(73, 177, 245, 0.3) !important;
+}
+
+.wl-comment {
+  border-radius: 8px !important;
+  margin: 12px 0 !important;
+  padding: 16px !important;
+  background: var(--card-bg) !important;
+  border: 1px solid #e1e5e9 !important;
+  transition: all 0.3s ease !important;
+}
+
+.wl-comment:hover {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1) !important;
+  transform: translateY(-1px) !important;
+}
+
+.wl-comment .wl-nick {
+  color: #49b1f5 !important;
+  font-weight: 600 !important;
+}
+
+.wl-comment .wl-time {
+  color: var(--meta-color) !important;
+  font-size: 0.9em !important;
+}
+
+.wl-comment .wl-content {
+  color: var(--font-color) !important;
+  line-height: 1.6 !important;
+  margin-top: 8px !important;
+}
+
+.wl-emoji {
+  border-radius: 4px !important;
+}
+
+.wl-count {
+  color: var(--font-color) !important;
+  font-weight: 500 !important;
+}
+
+/* 暗色主题适配 */
+[data-theme="dark"] .wl-panel {
+  background: var(--card-bg) !important;
+  border-color: #2d3748 !important;
+}
+
+[data-theme="dark"] .wl-input {
+  background: var(--card-bg) !important;
+  border-color: #2d3748 !important;
+  color: var(--font-color) !important;
+}
+
+[data-theme="dark"] .wl-comment {
+  background: var(--card-bg) !important;
+  border-color: #2d3748 !important;
+}
+
+/* 移动端适配 */
+@media (max-width: 768px) {
+  .wl-panel {
+    margin: 15px 0 !important;
+    padding: 15px !important;
+  }
+  
+  .wl-comment {
+    padding: 12px !important;
+    margin: 8px 0 !important;
+  }
+  
+  .wl-input {
+    font-size: 16px !important; /* 移动端字体稍大 */
+  }
+}
+
+/* 自定义头像转动效果 */
+.avatar-img img {
+  /* 确保初始状态不转动 */
+  transform: rotate(0deg);
+  transition: transform 0.3s ease;
+}
+
+.avatar-img img:hover {
+  /* 只在鼠标悬停时转动 */
+  transform: rotate(360deg);
+}
+
+/* 确保头像不会自动转动 */
+.avatar-img img:not(:hover) {
+  animation: none !important;
+}
+
+/* 优化统计数据显示 */
+#busuanzi_container_site_pv,
+#busuanzi_container_site_uv,
+#busuanzi_container_page_pv {
+  display: inline-block;
+}
+
+/* 隐藏加载中的旋转圈 */
+#busuanzi_container_site_pv:empty::before,
+#busuanzi_container_site_uv:empty::before,
+#busuanzi_container_page_pv:empty::before {
+  content: "0";
+  color: var(--font-color);
+}
+
+/* 评论数显示优化 */
+.card-post-count {
+  display: inline-block;
+}
+
+.card-post-count:empty::before {
+  content: "0";
+  color: var(--font-color);
+}
+
+/* 加载超时处理 */
+.busuanzi-loading {
+  animation: none !important;
+}
+
+.busuanzi-loading::before {
+  content: "0" !important;
+  animation: none !important;
+}
