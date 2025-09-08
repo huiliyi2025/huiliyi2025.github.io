@@ -1,0 +1,30 @@
+/* 音乐页面自定义样式 */
+#aplayer {
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.page-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.music-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.music-desc {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #666;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .music-content {
+        padding: 15px;
+    }
+}
