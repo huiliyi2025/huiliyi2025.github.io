@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-09-06T08:28:02.302Z</updated>
+  <updated>2025-09-08T08:37:48.915Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,13 +17,13 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="http://example.com/posts/4a17b156.html"/>
-    <id>http://example.com/posts/4a17b156.html</id>
-    <published>2025-09-08T05:36:09.110Z</published>
-    <updated>2025-09-06T08:28:02.302Z</updated>
+    <title>关于这个Blog诞生过程的一些感受</title>
+    <link href="http://example.com/posts/360e4cc2.html"/>
+    <id>http://example.com/posts/360e4cc2.html</id>
+    <published>2025-09-08T08:13:08.000Z</published>
+    <updated>2025-09-08T08:37:48.915Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>  当我心血来潮想要为龙族里面的绘梨衣做一个简单的博客的时候，或许没有想到会和很多莫名其妙又难以解决的问题反复纠缠，没有经验，只能依靠模糊的ai解释和前人在csdn上发表的一些文章缓慢地改进，有时候因为一些很小的错误能枯坐3，4个小时而毫无进展，说实话我是想过放弃的，无论是网页图标没出现的时候，还是hexo d响应失败的时候，抑或是在网页背景颜色死活改不了的时候，追番和音乐页面反复出错的时候，我都想“一走了之”。但是我每每想到这个角色在书中的经历，想到她孤独绝望地呼唤，我就想着那就再坚持一下吧。<br>  当然也肯定是有快乐的时候的，看到背景终于透明，歌曲能正常播放，看到绘梨衣的图片占据了整个网页，还有心事集里的内容完美展现，我都感到了快乐。龙族里面有一句话：“彷佛千年之后树都老了，故人白发相逢”，在高中第一次读迎着阳光，盛大逃亡，现在大学在博客里面我写下关于你的故事，虽然不过匆匆几年，心却斑驳许多。<br>  但我们终究是再相逢了</p>]]></content>
     
     
       
@@ -33,6 +33,10 @@
     
     
     
+    <category term="回忆" scheme="http://example.com/categories/%E5%9B%9E%E5%BF%86/"/>
+    
+    
+    <category term="痛苦又幸福的经历" scheme="http://example.com/tags/%E7%97%9B%E8%8B%A6%E5%8F%88%E5%B9%B8%E7%A6%8F%E7%9A%84%E7%BB%8F%E5%8E%86/"/>
     
   </entry>
   
