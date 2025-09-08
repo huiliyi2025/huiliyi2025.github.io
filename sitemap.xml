@@ -2,7 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://huiliyi2025.github.io/posts/4a17b156.html</loc>
+    <loc>http://example.com/posts/8b12c0d3.html</loc>
+    
+    <lastmod>2025-09-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/abc.html</loc>
+    
+    <lastmod>2025-09-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/manifest.json</loc>
     
     <lastmod>2025-09-07</lastmod>
     
@@ -11,9 +29,9 @@
   </url>
   
   <url>
-    <loc>http://huiliyi2025.github.io/manifest.json</loc>
+    <loc>http://example.com/posts/4a17b156.html</loc>
     
-    <lastmod>2025-09-07</lastmod>
+    <lastmod>2025-09-06</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -21,13 +39,27 @@
   
 
   <url>
-    <loc>http://huiliyi2025.github.io/</loc>
-    <lastmod>2025-09-07</lastmod>
+    <loc>http://example.com/</loc>
+    <lastmod>2025-09-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
+  <url>
+    <loc>http://example.com/tags/%E9%BE%99%E4%B8%8E%E5%B0%91%E5%B9%B4%E6%B8%B8/</loc>
+    <lastmod>2025-09-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
+  
+  <url>
+    <loc>http://example.com/categories/%E9%9A%8F%E6%83%B3/</loc>
+    <lastmod>2025-09-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
 </urlset>

@@ -3,11 +3,11 @@
   <title>绘梨衣的奇妙旅行</title>
   
   <subtitle>迎着阳光，盛大逃亡</subtitle>
-  <link href="http://huiliyi2025.github.io/atom.xml" rel="self"/>
+  <link href="http://example.com/atom.xml" rel="self"/>
   
-  <link href="http://huiliyi2025.github.io/"/>
-  <updated>2025-09-07T08:20:54.017Z</updated>
-  <id>http://huiliyi2025.github.io/</id>
+  <link href="http://example.com/"/>
+  <updated>2025-09-06T08:28:02.302Z</updated>
+  <id>http://example.com/</id>
   
   <author>
     <name>风语寻</name>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://huiliyi2025.github.io/posts/4a17b156.html"/>
-    <id>http://huiliyi2025.github.io/posts/4a17b156.html</id>
-    <published>2025-09-06T06:42:20.396Z</published>
-    <updated>2025-09-07T08:20:54.017Z</updated>
+    <link href="http://example.com/posts/4a17b156.html"/>
+    <id>http://example.com/posts/4a17b156.html</id>
+    <published>2025-09-08T05:36:09.110Z</published>
+    <updated>2025-09-06T08:28:02.302Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
     
@@ -33,6 +33,30 @@
     
     
     
+    
+  </entry>
+  
+  <entry>
+    <title>月读命—五目炒饭之神</title>
+    <link href="http://example.com/posts/8b12c0d3.html"/>
+    <id>http://example.com/posts/8b12c0d3.html</id>
+    <published>2025-09-08T02:03:57.000Z</published>
+    <updated>2025-09-08T04:37:20.906Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>  “你要去找他，要去救他，万山无阻。”<br>   耳边似乎有人在说话，是啊，在那个大雨磅礴的晚上，在那间红色的情人酒馆里，那个被认为是哑巴的女孩凑在他耳边轻声说：“我们都是小怪兽，有一天会被正义的奥特曼杀死”<br>   是啊，你是小怪兽，可小怪兽也有小怪兽的好朋友，孤独的小怪兽们害怕得靠在一起，但如果正义的奥特曼要来杀你，我就帮你把正义的奥特曼杀死。<br>   可是我答应了，却没有做到。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="随想" scheme="http://example.com/categories/%E9%9A%8F%E6%83%B3/"/>
+    
+    
+    <category term="龙与少年游" scheme="http://example.com/tags/%E9%BE%99%E4%B8%8E%E5%B0%91%E5%B9%B4%E6%B8%B8/"/>
     
   </entry>
   
